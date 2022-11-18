@@ -1,0 +1,21 @@
+Grep is an essential Linux and Unix command. It is used to search text and strings in a given file. In other words, grep command searches the 
+given file for lines containing a match to the given strings or words. It is one of the most useful commands on Linux and Unix-like system for 
+developers and sysadmins. Let us see how to use grep on a Linux or Unix like system.
+
+The name, “grep”, derives from the command used to perform a similar operation, using the Unix/Linux text editor ed: 
+g/re/p 
+The grep utilities are a family that includes grep, egrep, and fgrep for searching files. For most use cases, fgrep is sufficient due to speed 
+and only looking into strings and words. However, typing grep is easy. Hence, it is a personal choice.
+
+Below is some standard grep command explained with examples to get you started with grep on Linux, macOS, and Unix:
+
+    Search any line that contains the word in filename on Linux:
+    grep 'word' filename
+    Perform a case-insensitive search for the word ‘bar’ in Linux and Unix:
+    grep -i 'bar' file1
+    Look for all files in the current directory and in all of its subdirectories in Linux for the word ‘httpd’:
+    grep -R 'httpd' .
+    Search and display the total number of times that the string ‘nixcraft’ appears in a file named frontpage.md:
+    grep -c 'nixcraft' frontpage.md
+
+Let us see all commands and options in details.
